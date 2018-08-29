@@ -89,7 +89,7 @@ int main(int argc, char *argv[]) {
             salary, salary_without_payment - tax);
     printf("        社保基数: %f    社保支出: %f\n", social_insurance_base,
             social_insurance_payment);
-    printf("        公积金基数: %f  公积金百分比: %f%    公积金支出: %f%\n",
+    printf("        公积金基数: %f  公积金百分比: %f%    公积金支出: %f\n",
             housing_fund_base, kHousingFundPersonalPaymentPercent + housing_fund_personal_payment_percent, housing_fund_payment);
     printf("        个税支出: %f\n", tax);
 
